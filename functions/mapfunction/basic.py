@@ -7,6 +7,7 @@ def myfunc(x):
 def myFunc1(x):
     return x*x
 adults=filter(myfunc,ages)
+
 for x in adults:
     print(x)
 squares=map(myFunc1,adults)
