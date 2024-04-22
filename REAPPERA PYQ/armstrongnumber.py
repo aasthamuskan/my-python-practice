@@ -9,11 +9,11 @@
 # else:
 #     print("not an armstrong number")
 a = input("Enter the value of 'a': ")
-num_digits = len(a)
+num = len(a)
 sum = 0
 
 for digit in a:
-    sum += int(digit) ** num_digits
+    sum += int(digit) ** num
 
 if sum == int(a):
     print(a, "is an Armstrong number.")
