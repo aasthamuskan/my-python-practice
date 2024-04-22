@@ -6,10 +6,10 @@ def myfunc(x):
         return True
 def myFunc1(x):
     return x*x
-adults=filter(myfunc,ages)
+adults= filter(myfunc,ages)
 
 for x in adults:
     print(x)
-squares=map(myFunc1,adults)
+squares= map(myFunc1,adults)
 for x in squares:
     print(x)        
